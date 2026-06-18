@@ -5,7 +5,7 @@
 // @version      1.0.0
 // @description  Open current URL in remove paywall
 // @author       F1amy
-// @downloadURL  https://raw.githubusercontent.com/f1amy/remove-paywall/master/removePaywall.user.js
+// @downloadURL  https://raw.githubusercontent.com/f1amy/remove-paywall/main/removePaywall.user.js
 // @match        *://*/*
 // @exclude      https://www.removepaywall.com/*
 // @icon         https://google.com
