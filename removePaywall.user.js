@@ -16,7 +16,7 @@
     'use strict';
 
     function getTargetUrl() {
-        return 'https://removepaywall.comsearch?url=' + encodeURIComponent(window.location.href);
+        return 'https://www.removepaywall.com/search?url=' + encodeURIComponent(window.location.href);
     }
 
     GM_registerMenuCommand('Open with removepaywall.com in new tab', function() {
