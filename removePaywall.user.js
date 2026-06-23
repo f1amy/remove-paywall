@@ -6,6 +6,7 @@
 // @description  Open current URL in remove paywall
 // @author       F1amy
 // @downloadURL  https://raw.githubusercontent.com/f1amy/remove-paywall/main/removePaywall.user.js
+// @updateURL    https://raw.githubusercontent.com/f1amy/remove-paywall/main/removePaywall.user.js
 // @match        *://*/*
 // @exclude      https://www.removepaywall.com/*
 // @icon         https://google.com
