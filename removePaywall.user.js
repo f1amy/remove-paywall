@@ -2,12 +2,12 @@
 // @name         Remove Paywall
 // @namespace    https://github.com/f1amy/remove-paywall
 // @homepageURL  https://github.com/f1amy/remove-paywall
-// @version      1.2.1
+// @version      1.2.2
 // @description  Open current URL in remove paywall
 // @author       F1amy
 // @downloadURL  https://raw.githubusercontent.com/f1amy/remove-paywall/main/removePaywall.user.js
 // @updateURL    https://raw.githubusercontent.com/f1amy/remove-paywall/main/removePaywall.user.js
-// @match        *://*/*
+// @match        https://*/*
 // @exclude      https://www.removepaywall.com/*
 // @icon         https://google.com
 // @grant        GM_registerMenuCommand
