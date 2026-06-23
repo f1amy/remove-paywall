@@ -24,19 +24,19 @@
         return 'https://removepaywalls.com/' + encodeURIComponent(window.location.href);
     }
 
-    GM_registerMenuCommand('Open with removepaywall.com in new tab', function() {
-        window.open(getTargetUrlRemovePaywall(), '_blank');
-    });
-
-    GM_registerMenuCommand('Open with removepaywall.com in current tab', function() {
-        window.location.href = getTargetUrlRemovePaywall();
-    });
-
     GM_registerMenuCommand('Open with removepaywalls.com in new tab', function() {
         window.open(getTargetUrlRemovePaywalls(), '_blank');
     });
 
     GM_registerMenuCommand('Open with removepaywalls.com in current tab', function() {
         window.location.href = getTargetUrlRemovePaywalls();
+    });
+
+    GM_registerMenuCommand('Open with removepaywall.com in new tab', function() {
+        window.open(getTargetUrlRemovePaywall(), '_blank');
+    });
+
+    GM_registerMenuCommand('Open with removepaywall.com in current tab', function() {
+        window.location.href = getTargetUrlRemovePaywall();
     });
 })();
